@@ -6,7 +6,7 @@ import instagram from "../assets/icons/instagram.png";
 
 function Footer() {
   return (
-    <footer className="flex h-[350px] w-full flex-col bg-black lg:h-[410px]">
+    <footer className="flex h-[350px] w-full flex-col bg-black lg:h-[400px]">
       <div className="flex w-full flex-grow flex-row p-1 text-white bg-black">
         <div className=" w-[30%] p-10   place-content-center text-center">
           <h2 className="text-global-orange text-lg font-salsa">
@@ -71,9 +71,9 @@ function Footer() {
           </p>
           <div className="flex flex-row justify-center">
             <input
-              type=" text"
+              type="text"
               placeholder="Email"
-              className="pl-2 mr-1 rounded-2xl"
+              className="pl-2 mr-1  text-black outline-none rounded-2xl"
             />
             <button className="bg-global-orange font-salsa rounded-lg w-16 ">
               Submit

@@ -5,7 +5,7 @@ function Root() {
   return (
     <div>
       <Header />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

@@ -15,6 +15,7 @@ export default {
       },
       fontFamily:{
         "salsa":['Salsa', 'sans-serif'],
+        "lato":['Lato', 'sans-serif'],
       }
       ,
       fontWeight: {
