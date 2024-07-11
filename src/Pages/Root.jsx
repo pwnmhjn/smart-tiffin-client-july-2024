@@ -1,11 +1,7 @@
-import React from "react";
-import { Footer, Header } from "../Layouts";
-
 function Root() {
   return (
     <div>
-      <Header />
-      <Footer />
+      <h1>This is Root</h1>
     </div>
   );
 }

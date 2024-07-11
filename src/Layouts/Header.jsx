@@ -1,9 +1,8 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/icons/logo.png";
 import ExArrow from "../assets/icons/ExArrow.png";
 import Search from "../assets/icons/Search.png";
-import Person from "../assets/icons/Person.png";
+// import Person from "../assets/icons/Person.png";
 import Safety from "../assets/icons/Safety.png";
 import FastCart from "../assets/icons/FastCart.png";
 
@@ -33,7 +32,7 @@ function Header() {
             />
           </div>
         </div>
-        <div className="bg-blue-400 w-[50%] h-full ">
+        <div className="bg-blue-400 w-[50%] h-full flex ">
           <span>
             <Link className="flex">
               <img src={Safety} alt="" />
@@ -47,9 +46,11 @@ function Header() {
             </Link>
           </span>
           <span>
-            <Link className="font-lato flex">
-              <img src={Person} alt="" />
-              <h3 className="font-lato">Shivani</h3>
+            <Link to="/register" className="font-lato ">
+              Register
+            </Link>
+            <Link to="login" className="font-lato ">
+              LogIn
             </Link>
           </span>
         </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import facebook from "../assets/icons/facebook.png";
 import twitter from "../assets/icons/twitter.png";
