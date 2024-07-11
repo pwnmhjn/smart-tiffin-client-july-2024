@@ -45,10 +45,13 @@ function Header() {
               <h3 className="font-lato">Cart</h3>
             </Link>
           </span>
+          <br />
           <span>
             <Link to="/register" className="font-lato ">
               Register
             </Link>
+            <br />
+            <br />
             <Link to="login" className="font-lato ">
               LogIn
             </Link>
